@@ -1,11 +1,12 @@
-import { useState } from 'react'
-import viteLogo from '/vite.svg'
-
+import Navbar from "@/scenes/navbar"
+import { useState } from "react"
 function App() {
+
+  const [selectedPage, setSelectedPage] = useState<string>("home")
 
   return (
     <div className="app">
-      app
+      <Navbar selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
     </div>
   )
 }
