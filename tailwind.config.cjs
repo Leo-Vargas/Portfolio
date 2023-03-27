@@ -15,6 +15,7 @@ module.exports = {
         "primary-green": "#009379",
         "primary-purple": "#BEAFF2",
         "secondary-purple": "#9A83EB",
+        "tertiary-purple": "#7657E4",
       },
       fontFamily: {
         epilogue: ["Epilogue", "sans-serif"],
