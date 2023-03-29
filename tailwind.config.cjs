@@ -12,6 +12,7 @@ module.exports = {
         "primary-grey": "#F3F3F3",
         "secondary-grey": "#2D2D2D",
         "primary-pink": "#F9E6F0",
+        "secondary-pink": "#F6DCE9",
         "primary-green": "#009379",
         "primary-purple": "#BEAFF2",
         "secondary-purple": "#9A83EB",
