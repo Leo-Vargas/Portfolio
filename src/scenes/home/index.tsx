@@ -11,7 +11,7 @@ type Props = {
 
 const Home = ({ selectedPage, setSelectedPage }: Props) => {
   return (
-  <section id="home" className="gap-16 py-10 md:h-full">
+  <section id="home" className="py-10 md:mt-10">
     <div className="w-3/4 md:flex mx-auto items-center justify-center">
       
       <div className="z-10 mt-32 md:basis-3/5 md:mb-0 mb-12">
