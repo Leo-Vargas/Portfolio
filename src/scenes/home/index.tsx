@@ -14,7 +14,7 @@ const Home = ({ selectedPage, setSelectedPage }: Props) => {
   <section id="home" className="gap-16 py-10 md:h-full">
     <div className="w-3/4 md:flex mx-auto items-center justify-center">
       
-      <div className="z-10 mt-32 md:basis-3/5">
+      <div className="z-10 mt-32 md:basis-3/5 md:mb-0 mb-12">
         <div className="flex flex-col items-center md:items-start">
           <p className="font-semibold">Hey there, I'm</p>
           <h1 className="font-semibold sm:text-8xl text-6xl">Leonardo</h1>
@@ -24,7 +24,7 @@ const Home = ({ selectedPage, setSelectedPage }: Props) => {
           </p>
           <div className="flex w-64 justify-around items-center">
             <AnchorLink
-              className="rounded-md bg-primary-green text-secondary-pink px-7 py-2 hover:text-primary-purple"
+              className="rounded-md bg-primary-green text-white sm:px-7 sm:py-2 px-5 py-1 hover:text-primary-purple"
               onClick={() => setSelectedPage(SelectedPage.ContactMe)}
               href={`#${SelectedPage.ContactMe}`}
             >
