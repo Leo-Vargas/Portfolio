@@ -20,7 +20,7 @@ const Home = ({ selectedPage, setSelectedPage }: Props) => {
           <h1 className="font-semibold sm:text-8xl text-6xl">Leonardo</h1>
           <h1 className="font-semibold sm:text-8xl text-6xl">Vargas</h1>
           <p className="py-2">
-            Front End Developer based in Brazil.
+            Front-End Developer based in Brazil.
           </p>
           <div className="flex w-64 justify-around items-center">
             <AnchorLink
