@@ -5,18 +5,22 @@ import { SelectedPage } from "@/shared/types"
 import Link from "./Link"
 
 type Props = {
+  isTopOfPage: boolean;
   selectedPage: SelectedPage;
   setSelectedPage: (value: SelectedPage) => void;
 }
 
-const Navbar = ({ selectedPage, setSelectedPage }: Props) => {
+const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
+
   const flexBetween = "flex items-center justify-between"
+  const navbarBackground = isTopOfPage ? "bg-white" : "bg-primary-pink dropshadow"
+
   const pageNames: Array<string> = ["Home", "About Me", "My Work", "Contact Me"]
   const [isMenuToggled, setIsMenuToggled] = useState<boolean>(false)
   
   return (
     <nav>
-      <div className={`${flexBetween} fixed top-0 z-30 w-full py-3 bg-white`}>
+      <div className={`${flexBetween} ${navbarBackground} fixed top-0 z-30 w-full py-3`}>
         <div className={`${flexBetween} mx-auto w-5/6`}>
           
           <div className="flex-1">
