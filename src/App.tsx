@@ -1,8 +1,10 @@
 import Navbar from "@/scenes/navbar"
 import Home from "@/scenes/home"
+import AboutMe from "./scenes/aboutMe"
+import MyWork from "./scenes/myWork"
 import { useEffect, useState } from "react"
 import { SelectedPage } from "@/shared/types"
-import AboutMe from "./scenes/aboutMe"
+
 
 function App() {
 
@@ -26,6 +28,7 @@ function App() {
       <Navbar isTopOfPage={isTopOfPage} selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
       <Home selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
       <AboutMe />
+      <MyWork />
     </div>
   )
 }
