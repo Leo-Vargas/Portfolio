@@ -1,9 +1,49 @@
+import { WorkCardType } from "@/shared/types"
+import WorkCard from "./WorkCard"
+
+const works: Array<WorkCardType> = [
+  {
+    name: "Work in progress",
+    image: "",
+    link: "",
+    tags: ["React", "tailwind", "etc"]
+  },
+  {
+    name: "Work in progress",
+    image: "",
+    link: "",
+    tags: ["React", "tailwind", "etc"]
+  },
+  {
+    name: "Work in progress",
+    image: "",
+    link: "",
+    tags: ["React", "tailwind", "etc"]
+  },
+]
+
 type Props = {}
 
 const MyWork = (props: Props) => {
   return (
     <section id="mywork" className="md:mt-20 py-36">
-      My Work
+      <div className="w-3/4 mx-auto">
+
+        <h1 className="text-center font-semibold text-xl">
+          My Latest Work
+        </h1>
+        <div className="md:mt-20 py-24 mx-auto flex flex-col sm:flex-row justify-between flex-wrap gap-y-14 gap-x-10 items-center">
+          {works.map((item: WorkCardType, index) => (
+            <WorkCard
+              key={`${item.name}-${index}`}
+              name={item.name}
+              image={item.image}
+              link={item.link}
+              tags={item.tags}
+            />
+          ))}
+        </div>
+      </div>
     </section>
   )
 }
