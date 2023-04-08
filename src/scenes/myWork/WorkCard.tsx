@@ -1,3 +1,5 @@
+import Tag from "./Tag"
+
 type Props = {
   name: string
   image: string
@@ -13,7 +15,14 @@ const WorkCard = ({ name, image, link, tags }: Props) => {
       </div>
       <div className="flex flex-col justify-evenly">
         <p className="mt-4 font-semibold">{name}</p>
-        <p>React, Tailwind, etc</p>
+        <div className="flex gap-[2px] flex-wrap">
+          {tags.map((item: string, index) => (
+            <Tag
+              key={`${item}-${index}`}
+              tag={item} 
+            />
+          ))}
+        </div>
       </div>
     </div>
   )

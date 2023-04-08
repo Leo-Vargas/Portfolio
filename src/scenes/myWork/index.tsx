@@ -6,19 +6,19 @@ const works: Array<WorkCardType> = [
     name: "Work in progress",
     image: "",
     link: "",
-    tags: ["React", "tailwind", "etc"]
+    tags: ["React", "Tailwind", "Vite"]
   },
   {
     name: "Work in progress",
     image: "",
     link: "",
-    tags: ["React", "tailwind", "etc"]
+    tags: ["React", "Tailwind", "etc"]
   },
   {
     name: "Work in progress",
     image: "",
     link: "",
-    tags: ["React", "tailwind", "etc"]
+    tags: ["React", "Tailwind", "etc"]
   },
 ]
 
