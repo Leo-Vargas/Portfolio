@@ -22,7 +22,7 @@ const spanStyles = "bg-primary-green text-white py-1 px-3 leading-[23px] sm:lead
             During my time there I learned how to program and immediately fell in love with it, taking several classes from <span className={`${spanStyles}`}>computer science</span> during my graduation.
             It was not until my last semester at the university that I decided to make a career change, when I had the opportunity to take an <span className={`${spanStyles}`}>internship as a software developer.</span> 
             <br/>Ever since I've been studying on my own and honing my skills as a front-end developer. 
-            I am very <span className={`${spanStyles}`}>passionate about art</span> and creating stuff, both physical and virtual, like websites. 
+            I am very <span className={`${spanStyles}`}>passionate about art</span> and creating stuff, both physical and digital, like websites. 
  
           </p>
         </div>
