@@ -4,6 +4,7 @@ import AboutMe from "./scenes/aboutMe"
 import MyWork from "./scenes/myWork"
 import { useEffect, useState } from "react"
 import { SelectedPage } from "@/shared/types"
+import ContactMe from "./scenes/contactMe"
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
       <Home selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
       <AboutMe />
       <MyWork />
+      <ContactMe />
     </div>
   )
 }
