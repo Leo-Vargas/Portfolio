@@ -26,7 +26,7 @@ type Props = {}
 
 const MyWork = (props: Props) => {
   return (
-    <section id="mywork" className="md:mt-20 py-36">
+    <section id="mywork" className="md:mt-20 pt-36">
       <div className="w-3/4 mx-auto">
 
         <h1 className="text-center font-semibold text-xl">
