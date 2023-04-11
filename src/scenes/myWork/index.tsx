@@ -4,7 +4,7 @@ import WorkCard from "./WorkCard"
 const works: Array<WorkCardType> = [
   {
     name: "Work in progress",
-    image: "",
+    image: "image",
     link: "",
     tags: ["React", "Tailwind", "Vite"]
   },
